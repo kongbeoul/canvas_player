@@ -1,0 +1,23 @@
+{
+  "name": "canvas_player",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kongbeoul/canvas_player.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kongbeoul/canvas_player/issues"
+  },
+  "homepage": "https://github.com/kongbeoul/canvas_player",
+  "devDependencies": {
+    "gh-pages": "^2.1.1"
+  }
+}
