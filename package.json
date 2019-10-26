@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/kongbeoul/canvas_player/issues"
   },
-  "homepage": "https://github.com/kongbeoul/canvas_player",
+  "homepage": "https://kongbeoul.github.io/canvas_player/",
   "devDependencies": {
     "gh-pages": "^2.1.1"
   }
