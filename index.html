@@ -4,15 +4,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
   <title>뮤직 플레이어</title>
-  <link type="text/css" rel="stylesheet" href="../../static/css/reset.css">
-  <link type="text/css" rel="stylesheet" href="../../static/css/common.css">
-  <link type="text/css" rel="stylesheet" href="../../static/css/sub.css">
+  <link type="text/css" rel="stylesheet" href="./static/css/reset.css">
+  <link type="text/css" rel="stylesheet" href="./static/css/common.css">
+  <link type="text/css" rel="stylesheet" href="./static/css/sub.css"
 </head>
 <body>
   <div id="wrap">
     <div id="header" class="type01">
       <div class="headerContArea">
-        <button type="button" class="setting"><img src="../../static/images/common/icon_back_menu.png" alt="뒤로가기" /></button>
+        <button type="button" class="setting"><img src="./static/images/common/icon_back_menu.png" alt="뒤로가기" /></button>
         <div class="mainTitleArea txtTitle">
           <h1>Contents</h1>         
         </div>   
@@ -39,23 +39,23 @@
         <div class="musicPlayerArea">
           <div class="audioWrap">
             <audio id="audio">
-              <source src="../../static/files/ogg.ogg" type="audio/ogg" />
-              <source src="../../static/files/mp3.mp3" type="audio/mp3" />
+              <source src="./static/files/ogg.ogg" type="audio/ogg" />
+              <source src="./static/files/mp3.mp3" type="audio/mp3" />
             </audio>
           </div>
           <canvas id="myCanvas" width="250" height="250"></canvas>
           <div class="noticeTxtArea">
             <span class="thumbs">
-              <img src="../../static/images/contents/img_cont01_01.png" alt=""> <!-- 썸네일과 동일한 이미지 넣어주세요 -->
+              <img src="./static/images/contents/img_cont01_01.png" alt=""> <!-- 썸네일과 동일한 이미지 넣어주세요 -->
             </span>
             <span class="timerTxt">02 : 45</span>
           </div>
         </div>
         <div class="musicPlayerBtnArea">
           <button type="button" class="btnRepetition on">반복재생</button> <!-- 활성화시 class="on" 추가 -->
-          <button type="button" class="btnPrev"><img src="../../static/images/common/btn_prev.png" alt="이전" /></button>
+          <button type="button" class="btnPrev"><img src="./static/images/common/btn_prev.png" alt="이전" /></button>
           <button type="button" class="btnPlay">재생, 일시정지 버튼</button> <!-- 일시정지시 class="stop" 추가-->
-          <button type="button" class="btnNext"><img src="../../static/images/common/btn_next.png" alt="다음" /></button>
+          <button type="button" class="btnNext"><img src="./static/images/common/btn_next.png" alt="다음" /></button>
           <button type="button" class="btnRandom on">랜덤재생</button> <!-- 활성화시 class="on" 추가 -->
         </div>
         <div class="settingBtnArea">
